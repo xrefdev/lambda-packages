@@ -77,11 +77,11 @@ lambda_packages = {
         },
         'python2.7': {
             'version': '1.3.13',
-            'path': os.path.join(PACKAGES_DIR, 'mysqlclient', 'python2.7-mysqlclient-1.3.12.tar.gz')
+            'path': os.path.join(PACKAGES_DIR, 'mysqlclient', 'python2.7-mysqlclient-1.3.13.tar.gz')
         },
         'python2.7': {
             'version': '1.4.2',
-            'path': os.path.join(PACKAGES_DIR, 'mysqlclient', 'python2.7-mysqlclient-1.3.12.tar.gz')
+            'path': os.path.join(PACKAGES_DIR, 'mysqlclient', 'python2.7-mysqlclient-1.4.2.tar.gz')
         },
         'python3.6': {
             'version': '1.3.12',
@@ -89,11 +89,11 @@ lambda_packages = {
         },
         'python3.6': {
             'version': '1.3.13',
-            'path': os.path.join(PACKAGES_DIR, 'mysqlclient', 'python3.6-mysqlclient-1.3.12.tar.gz')
+            'path': os.path.join(PACKAGES_DIR, 'mysqlclient', 'python3.6-mysqlclient-1.3.13.tar.gz')
         },
         'python3.6': {
             'version': '1.4.2',
-            'path': os.path.join(PACKAGES_DIR, 'mysqlclient', 'python3.6-mysqlclient-1.3.12.tar.gz')
+            'path': os.path.join(PACKAGES_DIR, 'mysqlclient', 'python3.6-mysqlclient-1.4.2.tar.gz')
         }
     },
     'numpy': {
