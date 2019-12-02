@@ -34,7 +34,7 @@ VERSION = get_version('lambda_packages', '__init__.py')
 def get_package():
     filename = os.path.join(
         os.path.dirname(__file__), 'dist',
-        'xref-lambda-packages-{}.tar.gz'.format(VERSION)
+        'xref_lambda_packages-{}.tar.gz'.format(VERSION)
     )
     return filename
 
