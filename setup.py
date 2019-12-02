@@ -28,7 +28,7 @@ def get_version(*file_paths):
 
 
 VERSION = get_version('lambda_packages', '__init__.py')
-HISTORY = open('HISTORY.rst').read().replace('.. :changelog:', '')
+# HISTORY = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 
 def get_package():
