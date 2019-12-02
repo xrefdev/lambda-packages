@@ -2,6 +2,8 @@ import os
 
 PACKAGES_DIR = os.path.dirname(os.path.abspath(__file__))
 
+__version__ = '1.0.0'
+
 # A manifest of the included packages.
 lambda_packages = {
     'bcrypt': {

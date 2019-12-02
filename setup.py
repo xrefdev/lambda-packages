@@ -54,7 +54,7 @@ if sys.argv[-1] == 'tag':
 
 setup(
     name='xref_lambda_packages',
-    version='0.21.0',
+    version=VERSION,
     packages=['xref_lambda_packages'],
     include_package_data=True,
     license='MIT License',
