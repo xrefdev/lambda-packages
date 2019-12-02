@@ -1,7 +1,6 @@
 language: python
 python:
   - "2.7"
-  - "3.3"
   - "3.4"
   - "3.5"
   - "3.6"
@@ -10,5 +9,4 @@ install:
  - "pip install nose"
 # command to run tests
 script: nosetests
-notifications:
-  slack: zappateam:TTJ0mfHunDK0IBweKkEXjGpR
+
