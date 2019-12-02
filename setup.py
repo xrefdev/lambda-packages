@@ -27,7 +27,7 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
-VERSION = get_version('xreflambdapackages', '__init__.py')
+VERSION = get_version('lambda_packages', '__init__.py')
 HISTORY = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 
