@@ -1,2 +1,2 @@
 include README.md
-recursive-include lambda_packages *.py *.tar.gz
+recursive-include xref_lambda_packages *.py *.tar.gz
