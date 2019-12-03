@@ -27,7 +27,7 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
-VERSION = get_version('lambda_packages', '__init__.py')
+VERSION = get_version('xref_lambda_packages', '__init__.py')
 # HISTORY = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 
@@ -50,12 +50,10 @@ if sys.argv[-1] == 'tag':
     os.system('git push --tags')
     sys.exit()
 
-
-
 setup(
     name='xref_lambda_packages',
     version=VERSION,
-    packages=['lambda_packages'],
+    packages=['xref_lambda_packages'],
     include_package_data=True,
     license='MIT License',
     description='AWS Lambda Packages',

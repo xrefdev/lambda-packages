@@ -1,5 +1,5 @@
 import os
-from lambda_packages import lambda_packages
+from xref_lambda_packages import lambda_packages
 from nose.tools import assert_true
 
 def test_packages():
